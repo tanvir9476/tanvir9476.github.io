@@ -115,6 +115,19 @@ h2 {
   position: relative;
 }
 
+.paper-figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paper-figure img {
+  display: block;
+  height: auto;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+}
+
 .two {
   width: 160px;
   height: 160px;
