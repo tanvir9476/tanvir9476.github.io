@@ -152,6 +152,81 @@ span.highlight {
   font-weight: 600;
 }
 
+.older-research {
+  margin: 0;
+}
+
+.older-research summary {
+  margin: 0 16px 10px;
+  padding: 4px 0;
+  color: #1772d0;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.older-research summary:hover,
+.older-research summary:focus {
+  color: #f09228;
+}
+
+.older-research summary:focus-visible {
+  outline: 2px solid #1772d0;
+  outline-offset: 3px;
+}
+
+.older-research-hide {
+  display: none;
+}
+
+.older-research[open] .older-research-show {
+  display: none;
+}
+
+.older-research[open] .older-research-hide {
+  display: inline;
+}
+
+.experience-table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0 10px;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.experience-logo-frame {
+  display: grid;
+  width: 160px;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.experience-logo-frame a {
+  display: grid;
+  width: 160px;
+  place-items: center;
+}
+
+.experience-logo {
+  display: block;
+  width: auto;
+  max-width: 130px;
+  max-height: 130px;
+  margin: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.experience-position {
+  font-weight: 700;
+}
+
+.experience-description {
+  margin: 8px 0 0;
+}
+
 .colored-box {
     color: black;
     padding: 20px;
