@@ -227,13 +227,6 @@ span.highlight {
   margin: 8px 0 0;
 }
 
-.colored-box {
-    color: black;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 10px;
-}
-
 .bibtex-toggle[aria-expanded="true"] {
   color: #f09228;
 }
