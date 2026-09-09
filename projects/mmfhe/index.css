@@ -1,0 +1,222 @@
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+.link-block a,
+.link-block .button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+.publication-title,
+.publication-authors {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+}
+
+.publication-venue {
+  width: fit-content;
+  margin: 0.75rem auto 0;
+  color: #555;
+  font-weight: bold;
+}
+
+.publication-authors a,
+.publication-venue a {
+  color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover,
+.publication-venue a:hover {
+  text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.is-coming-soon {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.update-note {
+  margin-top: 0.5rem;
+  color: #666;
+  font-style: italic;
+}
+
+.system-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.figure-caption {
+  margin-top: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.section .content {
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.demo-section {
+  padding-top: 1rem;
+}
+
+.demo-figure img {
+  display: block;
+  width: 100%;
+  max-width: 626px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.demo-figure .figure-caption {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.citation-section {
+  padding-top: 1rem;
+}
+
+.citation-section pre {
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .publication-title {
+    font-size: 2.25rem !important;
+  }
+
+  .figure-caption {
+    font-size: 1rem;
+    text-align: left !important;
+  }
+}
+
+/* Homepage-scale typography and spacing trial. */
+.container.is-max-desktop {
+  max-width: 800px !important;
+}
+
+.publication-header .hero-body {
+  padding: 48px 16px 24px;
+}
+
+.publication-title {
+  margin-bottom: 16px !important;
+  font-size: 32px !important;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.publication-authors {
+  font-size: 16px !important;
+  line-height: 1.45;
+}
+
+.publication-authors + .publication-authors {
+  margin-top: 4px;
+}
+
+.publication-venue {
+  margin-top: 8px;
+  font-size: 14px !important;
+}
+
+.publication-links .button,
+.update-note {
+  font-size: 14px;
+}
+
+.teaser .hero-body {
+  padding-right: 16px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+}
+
+.section {
+  padding: 24px 16px;
+}
+
+.section .title.is-3,
+.citation-section .title {
+  margin-bottom: 14px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.section .content,
+.figure-caption,
+.footer .content {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.figure-caption {
+  margin-top: 12px;
+}
+
+.demo-section,
+.citation-section {
+  padding-top: 16px;
+}
+
+.footer {
+  padding: 24px 16px;
+}
+
+.figure-caption {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify !important;
+  text-align-last: left;
+}
+
+.section .content.has-text-justified {
+  text-align: justify !important;
+  text-align-last: left;
+}
+
+.citation-section .container.is-max-desktop {
+  max-width: 768px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .publication-header .hero-body {
+    padding-top: 36px;
+  }
+
+  .publication-title {
+    font-size: 28px !important;
+  }
+
+  .publication-authors {
+    font-size: 15px !important;
+  }
+
+  .figure-caption {
+    font-size: 14px;
+  }
+}
