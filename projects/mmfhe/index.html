@@ -139,12 +139,13 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
-          <h2 class="title is-3">Demo Setup</h2>
+          <h2 class="title is-3">System Demo</h2>
           <figure class="demo-figure">
-            <img src="../../images/mmFHE-demo-setup.png"
-                 alt="mmFHE demo with a tripod-mounted radar connected to a Raspberry Pi edge client">
+            <img src="files/mmFHE-animation.gif"
+                 width="1920" height="1080" loading="lazy" decoding="async"
+                 alt="Animated mmFHE workflow: mmWave data collection, range-profile encryption on a Raspberry Pi, cloud GPU processing on ciphertexts, and result decryption on the Pi">
             <figcaption class="subtitle has-text-centered figure-caption">
-              <strong>Demo setup.</strong> An attendee stands in front of a tripod-mounted 77 GHz TI 1443 FMCW radar (top inset), wired to a Raspberry Pi 4 edge client (bottom inset) that encrypts every sensing window before sending it to the cloud server.
+              <strong>mmFHE in action.</strong> A mmWave radar collects sensing data, and a Raspberry Pi edge client encrypts the range profiles before sending them to a semi-honest cloud GPU server. The cloud performs DSP and ML inference entirely on ciphertexts and returns encrypted results for the client to decrypt. The secret key remains on the trusted client.
             </figcaption>
           </figure>
         </div>
