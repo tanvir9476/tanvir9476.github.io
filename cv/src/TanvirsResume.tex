@@ -1,0 +1,544 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[T1]{fontenc}
+\usepackage{libertinus}
+
+\usepackage[letterpaper, left=0.5in,top=0.7in,right=0.5in,bottom=0.7in]{geometry} % Document margins
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{eurosym}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\usepackage{csquotes}
+\usepackage{array}
+\name{Tanvir Ahmed} % Your name
+% \address{\href{https://tanvir9476.github.io/}{https://tanvir9476.github.io/} $|$ } % Your address
+\address{Phone: {+1 (917) 728-8820} $|$ Email: \href{ta376@cornell.edu}{ta376@cornell.edu} $|$ Address: 2 W Loop Rd, New York, NY 10044, USA}
+\address{Website: \href{https://tanvir9476.github.io/}{https://tanvir9476.github.io/} $|$ LinkedIn: \href{https://www.linkedin.com/in/tanvir9476/}{https://www.linkedin.com/in/tanvir9476/}} % Your phone number and email
+
+\begin{document}
+\raggedright
+\thispagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% \fancyhead[R]{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\fancyfoot[L]{\footnotesize $^*$equal contribution.}
+\fancyfoot[R]{\footnotesize $^\dagger$Google Scholar: \href{https://scholar.google.com/citations?user=YVYJl3QAAAAJ&hl=en}{\url{https://scholar.google.com/citations?user=YVYJl3QAAAAJ&hl=en}}}
+%----------------------------------------------------------------------------------------
+%	Research Interest SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{RESEARCH INTERESTS}
+
+Privacy-Preserving Wireless Sensing, Signal Processing, Applied Cryptography, AI/ML.
+% Using existing wireless technologies (acoustic, mmWave, Wi-Fi) for novel, privacy-aware applications in health+environmental sensing, and natural language understanding of wireless signals.
+% Privacy-Aware Wireless Health Sensing with mmWave/Acoustic/Wi-Fi,  Natural Language Understanding of Wireless Signal Processing, AI/ML in Healthcare,
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+\begin{rEducationSubsection}{Cornell University}{New York, United States}
+\educationDegree{Ph.D. in Information Science}{Aug 2028 (Expected)}
+\begin{educationDetails}
+\item Research: Trustworthy and privacy-aware wireless health sensing.
+\item Committee: \href{https://infosci.cornell.edu/~rajalakshmi/}{Rajalakshmi Nandakumar} (Chair), \href{https://destrin.tech.cornell.edu/}{Deborah Estrin}, and \href{https://www.cs.cornell.edu/~snavely/}{Noah Snavely}.
+\item Fellowships: \href{https://dli.tech.cornell.edu/doctoralfellows}{DLI Doctoral} (2025--26), \href{https://conscientious.tech.cornell.edu/}{DLI Conscientious Tech Design} (2026), and \href{https://www.pi.tech.cornell.edu/pitech-phd-impact-fellowship}{PiTech Impact} (2026).
+\end{educationDetails}
+\educationDegree[GPA: 4.18]{M.S. in Information Science}{Nov 2026}
+\educationDegree[GPA: 4.18]{M.S. in Computer Science}{Nov 2026}
+\end{rEducationSubsection}
+
+\begin{rEducationSubsection}{Bangladesh University of Engineering and Technology (BUET)}{Dhaka, Bangladesh}
+\educationDegree[GPA: 3.83]{M.S. in Electrical \& Electronic Engineering}{Jul 2023}
+\begin{educationDetails}
+\item Research: Image Super-Resolution Using Wavelet CNNs \href{http://lib.buet.ac.bd:8080/xmlui/handle/123456789/6615}{[thesis]}. Committee: \href{https://scholar.google.com/citations?user=VFe2plAAAAAJ&hl=en}{S. M. Mahbubur Rahman} (Chair), \href{https://scholar.google.com/citations?user=qDG3vBUAAAAJ&hl=en&oi=ao}{Shaikh Anowarul Fattah}, \href{https://scholar.google.com/citations?user=pn8CJdYAAAAJ&hl=en}{Mohammed Imamul Hassan Bhuiyan}, \href{https://scholar.google.com/citations?user=LIl1Y-0AAAAJ&hl=en}{Md. Hasanul Kabir}, and \href{https://eee.buet.ac.bd/people/faculty/dmayh}{Md. Aynal Haque}.
+\end{educationDetails}
+\educationDegree[GPA: 3.82]{B.S. in Electrical \& Electronic Engineering (with Honors)}{Apr 2019}
+\begin{educationDetails}
+\item Research: Traffic Sign Detection in Streaming Videos.
+\item Academic honors: \href{https://cse.buet.ac.bd/academics/fund}{Dean's List} (2015, 2016, 2018); University Merit Award (2015--2018).
+\end{educationDetails}
+\end{rEducationSubsection}
+
+% \begin{rSubsection}{Higher Secondary Certificate}{June, \emph{2012} - August, \emph{2014}}
+% {Dhaka Residential Model College (DRMC)}{GPA: \textbf{5.00}/5.00}
+% \item Relevant coursework: English, Benglai, Math, Physics, Chemistry, Biology
+% \end{rSubsection}
+
+
+\end{rSection}
+
+% \begin{rSection}{Ongoing PhD Research}
+% % \begin{rSubsection}{Contactless Human Motion and Sleep Study Using mmWave Radar}{Aug 2024 - \textit{Present}}{}{}
+% % \item Using multi-view mmWave FMCW radars for contactless monitoring of human motion and vital signs. \\
+% % Faculty advisors: \href{https://infosci.cornell.edu/~rajalakshmi/}{Rajalakshmi Nandakumar}, \href{https://weillcornell.org/ackrieger}{Ana C. Krieger} (Weill Cornell Medicine).
+% % \end{rSubsection}
+% % \begin{rSubsection}{Secure \& Private Wireless Sensing FHE-ZK }{Aug 2024 - \textit{Present}}{}{}
+% % \item Towards developing lightweight cryptographic algorithms combining fully homomorphic encryption with zero-knowledge proofs to enable privacy-preserving, verifiable human-centered wireless sensing (mmWave, Acoustic).
+% % \\
+% % Faculty advisors: \href{https://infosci.cornell.edu/~rajalakshmi/}{Rajalakshmi Nandakumar}, \href{https://thijsroumen.eu/}{Thijs Roumen}, \href{https://www.cs.cornell.edu/~rafael/}{Rafael Pass}.\\
+% % Relevant publications: P3, P2, C4
+% % \end{rSubsection}
+% \begin{rSubsection}{Secure Wireless Sensing}{Aug 2024 - \textit{Present}}{}{}
+% \item Designing end-to-end secure human-centered mmWave sensing systems through applied cryptography and normative privacy frameworks.
+% \\
+% Faculty advisors: \href{https://infosci.cornell.edu/~rajalakshmi/}{Rajalakshmi Nandakumar}, \href{https://thijsroumen.eu/}{Thijs Roumen}, \href{https://www.cs.cornell.edu/~rafael/}{Rafael Pass}, \href{https://nissenbaum.tech.cornell.edu/}{Helen Nissenbaum}.\\
+% Relevant publications: P3, P2, C4
+% \end{rSubsection}
+
+% % \begin{rSubsection}{Improving Spatial Wireless Sensing}{Nov 2025 - \textit{Present}}{}{}
+% % \item Developing novel beamforming algorithm for  resource-constrained devices with low-cost meta-surfaces. \\
+% % Faculty advisor: \href{https://infosci.cornell.edu/~rajalakshmi/}{Rajalakshmi Nandakumar}.
+% % \end{rSubsection}
+
+
+
+% % \begin{rSubsection}{Acoustic Sensing for Healthcare/Agriculture}{Aug 2023 - \textit{Present}}{}{}
+% % \item Using the speaker and microphone setup on commercial off-the-shelf (COTS) smart speakers devices such as Amazon Echo, or Google Nest as an FMCW radar to: (i) retrieve different human physiological signals (heart rate, respiratory rate, etc.), (ii) determine soil composition (moisture, carbon, salt, etc.).
+% % \\
+% % Faculty advisors: \href{https://infosci.cornell.edu/~rajalakshmi/}{Rajalakshmi Nandakumar}, \href{https://www.brooklyn.edu/faculty-staff/zhongqi-joshua-cheng/}{Zhongqi (Joshua) Cheng} (Brooklyn College, CUNY).
+% % \end{rSubsection}
+
+% \end{rSection}
+
+\begin{rSection}{Peer-reviewed Publications$^\dagger$}
+
+% \begin{rSubsection}{VitalHide: Enabling Privacy-Aware Wireless Sensing of Vital Signs}{Feb 2025}
+% { *Gao, Y., *\underline{Ahmed, T.}, Chang, Z., Roumen, T. \& Nandakumar, R.}{}
+% \item In the \textit{26th International Workshop on Mobile Computing Systems and Applications (\href{http://www.hotmobile.org/2025/}{ACM HotMobile 2025}).} Acceptance rate: 20/50 submissions.
+% \end{rSubsection}
+
+\begin{rPublicationSubsection}{[C5] mmFHE: mmWave Sensing with End-to-End Fully Homomorphic Encryption}{}
+{\underline{Ahmed, T.}, Gao, Y., Armouti, A., \& Nandakumar, R.}{\href{https://dl.acm.org/doi/10.1145/3795866.3844486}{[open access ACM DL]}}
+\item In Proc. of the \textit{32nd Annual International Conference on Mobile Computing and Networking}, October 26-30, 2026, Austin, Texas, USA. (\href{https://www.sigmobile.org/mobicom/2026/}{ACM MobiCom'26}) \label{pub:P3}
+\item \textcolor{teal}{Acceptance rate:} 14\% (88 out of 628 submissions).
+ 
+\end{rPublicationSubsection}
+
+\begin{rPublicationSubsection}{[P2] PrivyWave: Privacy-Aware Wireless Sensing of Heartbeat}{}
+{$^*$Gao, Y., $^*$\underline{Ahmed, T.}, Chang, Z., Roumen, T. \& Nandakumar, R.}{\href{https://arxiv.org/abs/2511.02993}{[arXiv:2511.02993]}}
+\item Under \underline{review}. \label{pub:P2}
+
+\end{rPublicationSubsection}
+
+\begin{rPublicationSubsection}{[P1] SoilSound: Smartphone-based Soil Moisture Estimation}{}
+{Gao, Y., \underline{Ahmed, T.}, He, S., Cheng, Z. \& Nandakumar, R.}{\href{https://arxiv.org/abs/2509.09823}{[arXiv:2509.09823]}}
+\item Under \underline{review}.
+ 
+\end{rPublicationSubsection}
+
+\begin{rPublicationSubsection}{[C4] VitalHide: Enabling Privacy-Aware Wireless Sensing of Vital Signs}{}
+{$^*$Gao, Y., $^*$\underline{Ahmed, T.}, Chang, Z., Roumen, T. \& Nandakumar, R.}{\href{https://dl.acm.org/doi/10.1145/3708468.3711880}{[open access ACM DL]}}
+\item In Proc. of the \textit{26th International Workshop on Mobile Computing Systems and Applications}, February 26-27, 2025, California, USA. (\href{http://www.hotmobile.org/2025/}{ACM HotMobile'25}) \label{pub:C4}
+\item \textcolor{teal}{Acceptance rate:} 40\% (20 out of 50 submissions).
+\item \textcolor{violet}{News:} \href{https://rsvp.withgoogle.com/events/nyc-privacy-day-at-google-fall-2024}{\textcolor{purple}{Poster @ NYC Privacy Day at Google -- Fall 2024}}, \href{https://tech.cornell.edu/news/vitalhide/}{\textcolor{purple}{Cornell Tech News}}, \href{https://news.cornell.edu/stories/2025/06/vitalhide-puts-privacy-first-age-wireless-health-monitoring}{\textcolor{purple}{Cornell Chronicle}}, \href{https://www.growkudos.com/publications/10.1145%25252F3708468.3711880/reader}{\textcolor{purple}{ACM Showcase}}. 
+\end{rPublicationSubsection}
+
+
+\begin{rPublicationSubsection}{[C3] Feasibility of Radio Frequency Based Wireless Sensing of Lead Contamination in Soil}{}
+{Gao, Y., \underline{Ahmed, T.}, Cheng, Z., Mohammed, M. \& Nandakumar, R.}{\href{https://arxiv.org/pdf/2512.16071}{[arXiv:2512.16071]}}
+\item In Proc. of the \textit{21st International Conference on Embedded Wireless Systems and Networks}, December 10-13, 2024, Abu Dhabi, UAE. (\href{https://ewsn24.tii.ae/}{EWSN'24})
+\item \textcolor{teal}{Acceptance rate:} 23\% (20 out of 86 submissions). 
+
+\item \textcolor{violet}{News:} \href{https://ewsn24.tii.ae/awards.html}{\textcolor{purple}{Best Paper Award}}, \href{https://news.cornell.edu/stories/2025/01/new-devices-radio-waves-reveal-lead-contamination-soil}{\textcolor{purple}{Cornell Chronicle}}, \href{https://phys.org/news/2025-01-device-radio-reveal-contamination-soil.html}{\textcolor{purple}{Phys.org}}, \href{https://www.msn.com/en-us/news/technology/new-device-s-radio-waves-reveal-lead-contamination-in-soil/ar-AA1wRqyO}{\textcolor{purple}{MSN}}, \href{https://ats.org/ats-news/new-devices-radio-waves-reveal-lead-contamination-in-soil/}{\textcolor{purple}{American Technion Society}}, \href{https://www.karmactive.com/soilscanner-affordable-device-detects-lead-in-urban-gardens/}{\textcolor{purple}{KARMACTIVE}}. 
+\end{rPublicationSubsection}
+
+\begin{rPublicationSubsection}{[J1] Biomimicry in Nanotechnology: a Comprehensive Review}{}
+{Himel, M. H., Sikder, B., \underline{Ahmed, T.} \& Choudhury, S. M.}{\href{https://pubs.rsc.org/en/content/articlehtml/2023/na/d2na00571a}{[open access online]}}
+\item In \textit{Nanoscale Advances} 5, no. 3 (2023): 596-614. 
+% \item \textcolor{violet}{News:} \href{https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=na&themeid=ab744d99-b526-44dc-9606-bc2abe927be8}{\textcolor{purple}{Included in ``Recent Review Articles'' themed collection}}.
+\end{rPublicationSubsection}
+
+\begin{rPublicationSubsection}{[C2] COVID-19 Identification From Lung CT Scans in a Low-Resource Setting Using a Regularized 3D Convolutional Neural Network}{}
+{\underline{Ahmed, T.}, Nakib, M., Haque, M. A., \& Miah, M. M. M.}{\href{https://drive.google.com/file/d/1Fki37ltfIkXam9g6lj242uVDxp1D_IR7/view?usp=sharing}{[pre-print]} 
+$\mid$  
+\href{https://ieeexplore.ieee.org/abstract/document/10089141}{[IEEE Xplore library]}}
+\item In Proc. of the \textit{12th International Conference on Electrical and Computer Engineering}, December 21-23, 2022, Dhaka, Bangladesh. (\href{https://icece.buet.ac.bd/index.html}{ICECE}) 
+\end{rPublicationSubsection}
+
+\begin{rPublicationSubsection}{[C1] Epileptic Seizure Prediction Using Bandpass Filtering and Convolutional Neural Network}{}
+{Mustaqeem, N., Rahman, T., Priyo, J. F. B. K., Parvez, M. Z., \& \underline{Ahmed, T.}}{\href{https://drive.google.com/file/d/1pILYdvZ1NUCmcywPhohDhJTajH0TKZtl/view?usp=sharing}{[pre-print]} 
+$\mid$ 
+\href{https://link.springer.com/chapter/10.1007/978-3-031-34622-4_2}{[Springer library]}}
+\item In Proc. of the \textit{1st International Conference on Machine Intelligence and Emerging Technologies}, Spetember 23-25, Noakhali, Bangladesh. (\href{https://confmiet.org/}{MIET})
+
+\end{rPublicationSubsection}
+
+
+% \begin{rSubsection}{}{}{Google Scholar profile: \href{https://scholar.google.com/citations?user=YVYJl3QAAAAJ&hl=en}{\url{https://scholar.google.com/citations?user=YVYJl3QAAAAJ&hl=en}}}{}
+% \item (C4) *Gao, Y., *\underline{Ahmed, T.}, Chang, Z., Roumen, T. \& Nandakumar, R. (2025, February). \textbf{VitalHide: Enabling Privacy-Aware Wireless Sensing of Vital Signs}. In the \textit{26th International Workshop on Mobile Computing Systems and Applications (\hyperlink{http://www.hotmobile.org/2025/}{ACM HotMobile 2025})}. [* = equal contribution.] \\ 
+% \textcolor{violet}{News:} Poster presented at the \href{https://rsvp.withgoogle.com/events/nyc-privacy-day-at-google-fall-2024}{\textcolor{purple}{ NYC Privacy Day at Google - Fall 2024}}.
+% \item (C3) Gao, Y., \underline{Ahmed, T.}, Cheng, Z., Mohammed, M. \& Nandakumar, R. (2024, December). \textbf{Feasibility of Radio Frequency Based Wireless Sensing of Lead Contamination in Soil}. In the \textit{21st International Conference on Embedded Wireless Systems and Networks (\href{https://ewsn24.tii.ae/}{EWSN'24})}. \href{https://ewsn24.tii.ae/accepted-papers-summer-round.html}{[open access online]} \\ 
+% \textcolor{violet}{News:} \href{https://ewsn24.tii.ae/awards.html}{\textcolor{purple}{Best Paper Award}}, \href{https://news.cornell.edu/stories/2025/01/new-devices-radio-waves-reveal-lead-contamination-soil}{\textcolor{purple}{Cornell Chronicle article}}.
+% \item (C2) \underline{Ahmed, T.}, Nakib, M., Haque, M. A., \& Miah, M. M. M. (2022, December). \textbf{COVID-19 Identification From Lung CT Scans in a Low-Resource Setting Using a Regularized 3D Convolutional Neural Network}. In \textit{12th International Conference on Electrical and Computer Engineering (\href{https://icece.buet.ac.bd/index.html}{ICECE})} (pp. 248-251). IEEE. \href{https://drive.google.com/file/d/1Fki37ltfIkXam9g6lj242uVDxp1D_IR7/view?usp=sharing}{[pre-print]} $|$  \href{https://ieeexplore.ieee.org/abstract/document/10089141}{[access online: IEEE Xplore]}
+% \item (J1) Himel, M. H., Sikder, B., \underline{Ahmed, T.}, \& Choudhury, S. M. (2023, January). \textbf{Biomimicry in nanotechnology: a comprehensive review}. \textit{Nanoscale Advances.} \href{https://pubs.rsc.org/en/content/articlehtml/2023/na/d2na00571a}{[open access online]}
+% \item (C1) Mustaqeem, N., Rahman, T., Priyo, J. F. B. K., Parvez, M. Z., \& \underline{Ahmed, T.} (2022, September). \textbf{Epileptic Seizure Prediction Using Bandpass Filtering and Convolutional Neural Network}. In \textit{International Conference on Machine Intelligence and Emerging Technologies} (pp. 17-30). Cham: Springer Nature Switzerland. \href{https://drive.google.com/file/d/1pILYdvZ1NUCmcywPhohDhJTajH0TKZtl/view?usp=sharing}{[pre-print]} $|$  \href{https://link.springer.com/chapter/10.1007/978-3-031-34622-4_2}{[access online: Springer Link]}
+% \end{rSubsection}
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Work Experience
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	Research EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Demo}
+
+% \begin{rSubsection}{VitalHide: Enabling Privacy-Aware Wireless Sensing of Vital Signs}{Feb 2025}
+% { *Gao, Y., *\underline{Ahmed, T.}, Chang, Z., Roumen, T. \& Nandakumar, R.}{}
+% \item In the \textit{26th International Workshop on Mobile Computing Systems and Applications (\href{http://www.hotmobile.org/2025/}{ACM HotMobile 2025}).} Acceptance rate: 20/50 submissions.
+% \end{rSubsection}
+
+\begin{rPublicationSubsection}{[D1] Demo: mmFHE: mmWave Sensing with End-to-End Fully Homomorphic Encryption}{}
+{\underline{Ahmed, T.}, Gao, Y., Armouti, A., \& Nandakumar, R.}{\href{https://dl.acm.org/doi/10.1145/3795866.3848464}{[open access ACM DL]}}
+\item In Proc. of the \textit{32nd Annual International Conference on Mobile Computing and Networking}, October 26-30, 2026, Austin, Texas, USA. (\href{https://www.sigmobile.org/mobicom/2026/}{ACM MobiCom'26}) \label{pub:D1}
+ 
+\end{rPublicationSubsection}
+\end{rSection}
+
+
+
+\begin{rSection}{Academic Service}
+\begin{rSubsection}{}{}{}{}
+\item Reviewer (Conference): ACM CHI [\href{https://chi2025.acm.org/for-authors/case-studies/}{'25}, \href{https://chi2026.acm.org/}{'26}], ACM/IEEE HRI [\href{https://humanrobotinteraction.org/2026/}{'26}], ACM DIS [\href{https://dis.acm.org/2025/call-for-papers/}{'25}, \href{https://dis.acm.org/2026/papers/}{'26}], UbiComp/ISWC [\href{https://www.ubicomp.org/ubicomp-iswc-2025/iswc-notes-and-briefs/}{'25}], ACM MobileHCI [\href{https://mobilehci.acm.org/2026/submit/papers.html}{'26}]
+\item Reviewer (Journal): IEEE Signal Processing Letters [\href{https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97}{'25, '26}], ACM Transactions on Computing for Healthcare [\href{https://www.webofscience.com/wos/author/record/OXB-5211-2025}{'26}]
+\item Topic Chair: IEEE ECCE  [\href{https://www.ieee-ecce.org/2025/}{'25}]
+\item Student Volunteer: ACM HotMobile [\href{https://hotmobile.org/2025/}{'25}]
+\end{rSubsection}
+\end{rSection}
+
+% \begin{rSection}{Past Research Projects}
+
+% % \begin{rSubsection}{Enabling Privacy-Aware Wireless Sensing of Vital Signs}{Feb 2024 - Oct 2024}{}{}
+% % \item This study proposes a novel cryptographic approach to protect vital signs from unauthorized wireless sensing while still enabling wireless sensing for user-authorized devices. 
+% % % The key idea of \textit{VitalHide} is to encrypt the user's vital signs by generating a deceiving vital sign motion using a wearable mechanical device, which can then only be decoded at authorized devices, while unauthorized devices receive deceiving vital signs.
+% % To be presented at the \hyperlink{http://www.hotmobile.org/2025/}{ACM HotMobile 2025}.
+% % \end{rSubsection}
+
+% % \begin{rSubsection}{Lead Detection in Urban Soil Using Wireless Technology}{Feb 2024 - Aug 2024}{}{}
+% % \item This study aims to design a cost-effective and portable radio-frequency-based wireless system capable of detecting lead in urban soil. Presented as the best paper in \hyperlink{https://ewsn24.tii.ae/index.html}{EWSN'24}. 
+% % \end{rSubsection}
+
+% % \begin{rSubsection}{Impact of Multi-Avatar and Camera Perspective on Self-Presence in VR}{Aug 2023 - Jan 2024}{}{}
+% % \item A behavioral science study on the impact of multi-avatar embodiment and viewpoint perspectives on the sense of self-presence in Virtual Reality (VR). We designed a custom environment and conducted in-person VR sessions with interview and survey responses afterward. 
+% % \end{rSubsection}
+
+% \begin{rSubsection}{Single Image Super-Resolution Using Wavelet Residual CNN}{Master's  thesis, Aug 2022 - Aug 2023}{}{}
+% \item  Designed a novel CNN architecture for single image super-resolution (SISR) integrated with residual connections and the wavelet transform that learns the image features both in the spatial and wavelet domains. The CNN is optimized by minimizing the loss in the said domains in the MAE sense. The novel wavelet residual block computes the forward and inverse transforms inside the network. This helps the model to be regularized in the wavelet domain as well as the spatial domain and produce super-resolution images with better high-frequency details.
+% \end{rSubsection}
+
+
+% \begin{rSubsection}{Classification of Traffic Signs from Live Videos}{Bachelor's thesis, Apr 2018 - Apr 2019}{}{}
+% \item Prepared a Bangladeshi traffic sign video database containing seven classes of traffic signs. Recognition and detection were done using a CNN-based object detection model (YOLOv3). 
+% % \href{https://drive.google.com/file/d/1oH_yUot0Y8Hn_HEQbzAFtR5rj6N_CHYw/view?usp=sharing}{[slide]}
+% \end{rSubsection}
+
+% \end{rSection}
+
+
+\begin{rSection}{Work Experience}
+
+\begin{rExperienceSubsection}{Environmental Defense Fund}{NYC, US}
+\experienceRole{Graduate Intern @ \href{https://www.methanesat.org/team}{MethaneSAT Data Platform} (Manager: \href{https://www.linkedin.com/in/sasha-ayvazov/}{Sasha Ayvazov})}{May 2026 - Aug 2026}
+% \\ Manager: \href{https://www.linkedin.com/in/sasha-ayvazov/}{Sasha Ayvazov}.
+\begin{experienceDetails}
+\item Developed Masked Prediction, a patch-based method for estimating background methane in scenes with spatial gradients. It hides each patch and predicts its background from the surrounding context, preventing plumes within the patch from influencing the estimate. Pooled local predictions provide a scene-level estimate and uncertainty. On synthetic scenes generated from real Jacobians, the method reduced mean absolute error by about 70\% over the production baseline (0.89 vs. 2.91 ppb). 
+\end{experienceDetails}
+\end{rExperienceSubsection}
+
+\begin{rExperienceSubsection}{Cornell Tech}{NYC, US}
+\experienceRole{Graduate Research Assistant @ Wireless Sensing and Mobile Systems Lab}{Aug {2023} - \emph{Present}}
+\experienceRole{Graduate Teaching Assistant}{}
+\begin{experienceDetails}
+\item Courses: \href{https://classes.cornell.edu/browse/roster/SP25/class/ECE/5260}{ECE 5260/ORIE~5735 Graph-Based Data Science for Networked Systems (Spring~25)},
+\href{https://classes.cornell.edu/browse/roster/SP24/class/CS/5304}{CS/INFO~5304 Data Science in the Wild (Spring~24)}, \href{https://classes.cornell.edu/browse/roster/FA23/class/INFO/5600}{INFO~5600 AI for Healthcare (Fall~23,~24)}, \href{https://classes.cornell.edu/browse/roster/FA23/class/INFO/5600}{INFO~5375 Machine Learning for Health (Fall~26)}.
+% \hfill Aug {2023} - \textit{Present}
+\end{experienceDetails}
+\end{rExperienceSubsection}
+
+
+\begin{rExperienceSubsection}{Brac University}{Dhaka, Bangladesh}
+\experienceRole{\href{https://www.bracu.ac.bd/about/people/tanvir-ahmed}{Lecturer} @ \href{https://cse.sds.bracu.ac.bd/}{Department of Computer Science and Engineering}}{Jan 2020 - Aug 2023}
+\begin{experienceDetails}
+\item Courses Instructed: CSE~460 VLSI Design, CSE~428 Image Processing, CSE~350 Digital Electronics and Pulse Techniques, CSE~251 Electronic Devices and Circuits, CSE~250 Circuits and Electronics.
+\end{experienceDetails}
+\end{rExperienceSubsection}
+\end{rSection}
+
+
+\begin{rSection}{School Projects}
+\begin{rSubsection}{}{}{}{}
+\item {Peer-to-peer computational resource sharing in networked edge devices} \href{https://drive.google.com/file/d/1Lafv-SuVHzafwqal0EaITKnVUbDYEHu2/view?usp=sharing}{[report]}
+\item {Impact of multi-avatar and camera perspective on self-presence in VR} \href{https://drive.google.com/file/d/1P_jILWP8epVtBue5T3bOqXPZS9Foiz3g/view?usp=sharing}{[report]}
+\item {Performance analysis of privacy-preserving logistic regression classifiers on the MNIST dataset} \href{https://drive.google.com/file/d/1Mg9cmB_fsOogLUmQES2HTe_Y_t_cnWci/view?usp=sharing}{[report]} \href{https://colab.research.google.com/drive/1pq2lDIiGz69ul1-Sq3hXFPuL3zPMKJ77?usp=sharing}{[code]}
+\item {Segmentation of ground-glass opacity from COVID-19-infected lung CT scans} \href{https://drive.google.com/file/d/1iKRiSHn4lJl0LL3dFWYe0kpUWCQJGvXh/view?usp=sharing}{[report]} \href{https://colab.research.google.com/drive/1kDJH4AJ3njdbcetet8FWRf06Lb3aqJLu?usp=sharing}{[code]}
+\item {Sign-language digit classification with explainable AI} \href{https://drive.google.com/file/d/1TDehVQOl_FuYqt7KgqhHKxvP0jzkwvNh/view?usp=sharing}{[report]} \href{https://colab.research.google.com/drive/1svKnj5qgj34ILJNW0x-iJLmTnzsYRXKT?usp=sharing}{[code]}
+% \item {Bengali digit recognition from speech}
+\item {Stage spotlight automation using deep learning and micro-controllers} \href{https://github.com/tanvir9476/StageLightAutomation/blob/master/code.py}{[code]}
+\item {Design, implementation \& verification of $32$-bit MIPS processor} \href{https://github.com/tanvir9476/32bitMIPS}{[code]}, 8$\times$8 Booth-encoded multiplier \href{https://drive.google.com/file/d/1XHYrMskXe0XTP0NAW0QJICng4clui1WW/view?usp=sharing}{[report]}
+\item {Real-time ECG monitoring and disease detection using Arduino, ECG chip, and WiFi module} \href{https://drive.google.com/file/d/1sntnS67vnhDraV8bPi1uSlVU95TLUpI6/view?usp=sharing}{[report]}
+\end{rSubsection}
+
+
+
+%\begin{rSubsection}{Real time ECG monitoring and disease detection}{\em Software \& %Hardware}{}{}
+%\item A prototype was made using Arduino, ECG chip and WiFi module that can send real %time ECG to the user's mobile phone. Machine learning algorithms were used to monitor %heart condition. (Biomedical Instrumentation Laboratory)
+%\end{rSubsection}
+
+%------------------------------------------------
+
+% \begin{rSubsection}{Stage spotlight automation using deep learning and micro-controllers}{}{}{}
+% \item The stage spotlight was automated to detect and track the performers on stage. Detection part employed a deep learning algorithm and the automation part was deployed using stepper motors and Arduino. (Control System I)
+% \end{rSubsection}
+
+% %------------------------------------------------
+
+% \begin{rSubsection}{Design and implementation of a 32 bit MIPS processor in Cadence}{}{}{}
+% \item Gate level structure followed by physical design that covers floor-planning, power mesh, clock tree synthesis, nano-routing, post-routing timing optimization and design rule check (DRC). (VLSI II)
+% \end{rSubsection}
+
+%------------------------------------------------
+
+% \begin{rSubsection}{Design and implementation of an 8$\times$8 Booth encoded multiplier using Kogge-Stone adder architecture in Cadence}{\em Software}{}{}
+% \item Schematic, wiring and layout done manually in Cadence. (VLSI I)
+% \end{rSubsection}
+% %------------------------------------------------
+
+% \begin{rSubsection}{Automated Electronic Voting Machine}{\em Software \& Hardware}{}{}
+% \item Fingerprint scanner was added for security measure and wireless data communication between voting machine and master counter was done using RF transmitter and receiver. (Communication Theory)
+% \end{rSubsection}
+% %------------------------------------------------
+
+% %\begin{rSubsection}{Photo filters using Matlab}{\em Software}{}{}
+% %\item 4 unique photo filters were made from scratch using Matlab. (Digital Signal %Processing Laboratory)
+% %\end{rSubsection}
+% %------------------------------------------------
+
+% \begin{rSubsection}{Emergency Sinusoidal Power Supply}{\em Hardware}{}{}
+% \item A motor and a generator was build from scratch which could be used as an emergency AC power supply when run together. (Energy Conversion)
+% \end{rSubsection}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	Projects 
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{}l @{\hspace{4ex}} l }
+Programming Languages: & Python, C, C++, Assembly, Verilog \\
+Machine Learning Libraries: & TensorFlow, Keras, PyTorch, Scikit-learn, MLX \\
+Circuit Design \& Simulation: & PSpice, Proteus, Quartus, Cadence\\
+Numerical Analysis: & MATLAB, Numpy, SciPy\\
+Google Workspace: & Docs, Sheets, Slides, Colab\\
+Writing \& Presentation: & Microsoft Word, Microsoft PowerPoint, \LaTeX\\
+Millimeter wave: & mmWave Studio\\
+USRP: & GNU Radio\\
+
+\end{tabular}
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Relevant Courses
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	ECA
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+\begin{rSection}{Honors \& Awards}
+\begin{rSubsection}{}{}{}{}
+\item \href{https://www.pi.tech.cornell.edu/pitech-phd-impact-fellowship}{PiTech Impact Fellowship} (full summer support of $\$20000$), Cornell Tech \hfill 2026
+\item \href{https://conscientious.tech.cornell.edu/}{Digital Life Initiative (DLI) Conscientious Tech Design Fellowship}  ($\$600$), Cornell Tech \hfill 2026
+\item \href{https://dli.tech.cornell.edu/doctoralfellows}{Digital Life Initiative (DLI) Doctoral Fellowship}  ($\$5000$), Cornell Tech \hfill 2025-26
+\item  \href{https://drive.google.com/file/d/1gfs4tNu51YIe8am-U1HK8uWKA8UiC61-/view?usp=sharing}{Student Travel Grant} ($\$800$), ACM HotMobile '25, California, USA \hfill 2025
+\item  \href{https://drive.google.com/file/d/1_GY4MncZnoOWJWAwxJllXX3saXhG9irn/view?usp=sharing}{Best Paper Award}  (\euro $1200$), EWSN'24, Abu Dhabi, UAE \hfill 2024
+\item \href{https://drive.google.com/file/d/1_GY4MncZnoOWJWAwxJllXX3saXhG9irn/view?usp=sharing}{Student Travel Grant}  (\euro $2000$), EWSN'24, Abu Dhabi, UAE \hfill 2024
+\item  \href{https://drive.google.com/file/d/15SWDxWEmWTwl6eiqXWZQhTW7JMe86Xfq/view?usp=sharing}{Photo Contest Winner}, ``Tech Innovation in Frame'' category, Cornell Tech, USA \hfill {2023}
+\item  \href{https://cse.buet.ac.bd/academics/fund}{Bachelor's Degree with Honors} (GPA $\geq$ 3.75), BUET \hfill {2019}
+\item  \href{https://cse.buet.ac.bd/academics/fund}{Dean’s List} (Academic Year GPA $\geq$ 3.75), BUET \hfill {2015, 2016, 2018}
+\item University Merit Award, BUET \hfill {2015, 2016, 2017, 2018}
+\item { National Idea Competition}, {Top 10}, Ministry of Power, Energy \& Mineral Resources, Bangladesh \hfill { 2017}
+\item { National Physics Olympiad}, {\bf \textit{$1^{st}$}} position,  St. Joseph Higher Secondary School, Dhaka, Bangladesh \hfill{2014}
+\item { Bangladesh Physics Olympiad}, {\bf \textit{$7^{th}$}} position, Dhaka Divisional, Bangladesh \hfill {2014}
+\end{rSubsection}
+
+\end{rSection}
+% \begin{rSection}{Relevant Coursework}
+
+% \begin{rSubsection}{}{}{}{}
+% \item \textbf{Graduate}: The Structure of Information Networks, HCI Graduate Studio, Behavior and Information Technology, Deep Learning, Digital Image Processing, Biomedical Signal Processing, Digital Speech Processing, Genomic Signal Processing, Privacy-Preserving Machine Learning, Nano Systems
+% \item \textbf{Undergraduate}: Digital Signal Processing I \& II, Random Signal Processing, Continuous Signals \& Linear Systems, VLSI I \& II, Control System I, Microprocessor and Interfacing, Biomedical Instrumentation, Semiconductor Device Theory, Calculus I \& II, Probability \& Statistics, Complex Analysis, Linear Algebra
+% \item \textbf{Online}: \href{https://www.coursera.org/account/accomplishments/specialization/Z52LLR5AZGP7}{Deep Learning Specialization (2020)}, \href{https://drive.google.com/file/d/1HI_9pC18SW39jpyO9BLPtPgPou6aQjC1/view?usp=drive_link}{Quantum Machine Learning (2021)}
+% \end{rSubsection}
+% \end{rSection}
+
+% \begin{rSection}{References}
+    
+%     \begin{table}[!h]
+%         \centering
+%         \begin{tabular}{ll}
+%              Rajalakshmi Nandakumar&S. M. Mahbubur Rahman\\
+%              Assistant Professor&Professor\\
+%              Computing and Information Science&Electrical and Electronic Engineering\\
+%              Cornell Tech&Bangladesh University of Engineering and Technology\\
+%              Email: \url{rajalakshmi.nandakumar@cornell.edu}&Email: \url{mahbubur@eee.buet.ac.bd} \\
+%              Web: \href{https://infosci.cornell.edu/~rajalakshmi/}{\url{https://infosci.cornell.edu/~rajalakshmi}}&Web: \href{https://mahbubur.buet.ac.bd/}{\url{https://mahbubur.buet.ac.bd}}
+             
+%         \end{tabular}
+        
+        
+%     \end{table}
+% \end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	STANDARDIZED TESTS
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{STANDARDIZED TESTS}
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{4ex}}l @{\hspace{4ex}}l}
+
+% IELTS & \textbf{\textit{8}}/9 & Speaking - \textbf{\textit{7}}/9, Listening - \textbf{\textit{8}}/9, Reading - \textbf{\textit{9}}/9, Writing - \textbf{\textit{7}}/9\\
+% GRE & \textbf{\textit{313}}/340 & Quantitative - \textbf{\textit{167}}/170 ($87^{th}$ Percentile), Analytical Writing - \textbf{\textit{4.0}}/6.0 ($54^{th}$ Percentile)\\
+% \end{tabular}
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Language
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Language Proficiency}
+%Fluent in Bangla and English (Speaking, Reading, Writing)
+%\end{rSection}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	3RD PAGE
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+
+
+
+% \begin{rSection}{Conference}
+% \begin{rSubsection}{}{}{}{}
+% \item Mahmudul Hasan, Syed Taskeen Rahman, Asiful Arefeen, $\bf {Tanvir Ahmed}$, Mohtasim Nakib, Celia Shahnaz and Arik Subhana 
+% \enquote{\textit{Portable Real Time ECG Monitor \& Disease Diagnostics}} IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health (BECITHCON), 2019
+% \end{rSubsection}
+ 
+% \end{rSection}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	REf
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{References}
+
+% \begin{rSubsection}{}{}{}{}
+% \item Up to three references are available upon request.
+% \end{rSubsection}
+
+%------------------------------------------------
+
+% \begin{rSubsection}{Dr. S. M. Mahbubur Rahman}{}{Professor, Department of EEE, BUET}{}
+% \item Email: mahbubur@eee.buet.ac.bd
+% \end{rSubsection}
+
+% %------------------------------------------------
+
+% \begin{rSubsection}{Dr. Sadia Hamid Kazi}{}{Chairperson \& Associate Professor, Department of CSE, Brac University}{}
+% \item Email: skazi@bracu.ac.bd
+% \end{rSubsection}
+
+%------------------------------------------------
+
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
